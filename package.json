@@ -1,0 +1,23 @@
+{
+  "name": "eslint-issue-1086",
+  "version": "1.0.0",
+  "description": "A repository intended to replicate an issue with formatting files in the [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) vs code extension.",
+  "main": "working.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/06000208/eslint-issue-1086.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/06000208/eslint-issue-1086/issues"
+  },
+  "homepage": "https://github.com/06000208/eslint-issue-1086#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0"
+  },
+  "dependencies": {}
+}
