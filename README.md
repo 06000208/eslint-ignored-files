@@ -8,6 +8,19 @@ See:
 
 - https://github.com/microsoft/vscode-eslint/issues/550
 - https://github.com/microsoft/vscode-eslint/issues/1086#issuecomment-728775230
+- https://github.com/eslint/eslint/issues/8429
+
+This can be resolved via:
+
+> If anyone else gets here via Google trying to figure out why dot folders are ignored, you can fix it by adding a negating ignore in your `.eslintignore`:
+> 
+> ```
+> !/.storybook
+> ```
+> 
+> Now anything like `.storybook/config.js` will be included in the lint.
+
+[_Originally posted by @bbugh_](https://github.com/eslint/eslint/issues/8429#issuecomment-355967308)
 
 ### Version info
 
